@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andhra Pradesh - Tourist Packages</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    h2, h4 {
+      font-weight: bold;
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .card {
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card-title {
+      font-weight: 600;
+      color: black;
+    }
+
+    .btn-primary {
+      border-radius: 8px;
+    }
+
+    hr {
+      border-top: 3px solid #0d6efd;
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">TouristPackages</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="andhra.html">Andhra Pradesh</a></li>
+          <li class="nav-item"><a class="nav-link" href="hyderabad.html">Hyderabad</a></li>
+          <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Andhra Places -->
+  <div class="container my-4">
+    <h2 class="text-center mb-4 text-primary">Famous Places in Andhra Pradesh</h2>
+    <hr>
+
+    <!-- Temples -->
+    <h4 class="text-primary">Temples</h4>
+    <div class="row">
+      <!-- Temples Cards -->
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="tirupati.jpg" class="card-img-top" alt="Tirupati Temple">
+          <div class="card-body">
+            <h5 class="card-title">Tirupati Temple</h5>
+            <p>Most visited temple in India dedicated to Lord Venkateswara.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="simhachalam.jpg" class="card-img-top" alt="Simhachalam Temple">
+          <div class="card-body">
+            <h5 class="card-title">Simhachalam Temple</h5>
+            <p>Ancient temple of Lord Narasimha near Visakhapatnam.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="durgatemple.jpg" class="card-img-top" alt="Kanaka Durga Temple">
+          <div class="card-body">
+            <h5 class="card-title">Kanaka Durga Temple</h5>
+            <p>Located on Indrakeeladri Hill, Vijayawada.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="anantha.jpg" class="card-img-top" alt="Ananthapadmanabha Swamy Temple">
+          <div class="card-body">
+            <h5 class="card-title">Ananthapadmanabha Swamy Temple</h5>
+            <p>Beautiful temple in Anantapur dedicated to Lord Vishnu.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="srikalahaste.jpg" class="card-img-top" alt="Srikalahasti Temple">
+          <div class="card-body">
+            <h5 class="card-title">Srikalahasti Temple</h5>
+            <p>Famous for Rahu-Ketu poojas, dedicated to Lord Shiva.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="lepakshi.jpg" class="card-img-top" alt="Lepakshi Temple">
+          <div class="card-body">
+            <h5 class="card-title">Lepakshi Temple</h5>
+            <p>Known for hanging pillar and Vijayanagara architecture.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Games & Entertainment -->
+    <h4 class="text-primary mt-4">Games & Entertainment</h4>
+    <div class="row">
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="vuda.jpg" class="card-img-top" alt="VUDA Park">
+          <div class="card-body">
+            <h5 class="card-title">VUDA Park</h5>
+            <p>Popular park with musical fountain and skating ring.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="snow.jpg" class="card-img-top" alt="Snow World Vizag">
+          <div class="card-body">
+            <h5 class="card-title">Snow World Vizag</h5>
+            <p>Enjoy snow rides and ice slides with your family.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="amusement.jpg" class="card-img-top" alt="Haailand Amusement Park">
+          <div class="card-body">
+            <h5 class="card-title">Haailand Amusement Park</h5>
+            <p>Fun rides and adventure zone near Guntur.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="citypark.jpg" class="card-img-top" alt="Citi Water Park">
+          <div class="card-body">
+            <h5 class="card-title">Citi Water Park</h5>
+            <p>Popular water rides and wave pools in Nellore.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="ramakrishnabeach.jpg" class="card-img-top" alt="Ramakrishna Beach Activities">
+          <div class="card-body">
+            <h5 class="card-title">Ramakrishna Beach</h5>
+            <p>Jet skiing, horse rides, and beach fun in Vizag.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tourist Places -->
+    <h4 class="text-primary mt-4">Tourist Places</h4>
+    <div class="row">
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="araku.jpg" class="card-img-top" alt="Araku Valley">
+          <div class="card-body">
+            <h5 class="card-title">Araku Valley</h5>
+            <p>Hill station with coffee plantations and waterfalls.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="gandikota.jpg" class="card-img-top" alt="Gandikota Canyon">
+          <div class="card-body">
+            <h5 class="card-title">Gandikota Canyon</h5>
+            <p>Known as the 'Grand Canyon of India'.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="rushikonda.jpg" class="card-img-top" alt="Rushikonda Beach">
+          <div class="card-body">
+            <h5 class="card-title">Rushikonda Beach</h5>
+            <p>Golden sandy beach perfect for swimming and surfing.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="borracaves.jpg" class="card-img-top" alt="Borra Caves">
+          <div class="card-body">
+            <h5 class="card-title">Borra Caves</h5>
+            <p>Limestone caves with stunning natural formations.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="submarine.jpg" class="card-img-top" alt="Submarine Museum">
+          <div class="card-body">
+            <h5 class="card-title">Submarine Museum</h5>
+            <p>First submarine museum in South Asia at RK Beach.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3 d-flex">
+        <div class="card flex-fill">
+          <img src="hills.jpg" class="card-img-top" alt="Horsley Hills">
+          <div class="card-body">
+            <h5 class="card-title">Horsley Hills</h5>
+            <p>Peaceful hill station with panoramic views.</p>
+            <a href="booking.html" class="btn btn-primary w-100 mt-auto">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
